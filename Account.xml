@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<accountsDtoPOJO>
+    <account type="SAVING_ACCOUNT">
+        <id>262a7eb3-7f81-4dcd-9c9d-28e4f617a78a</id>
+        <balance>0.11746556826794374</balance>
+        <createdAt>2023-04-18T13:59:00Z</createdAt>
+        <CustomerDto>
+            <id>1</id>
+            <name>Ali</name>
+            <email>Ali@gmail.com</email>
+        </CustomerDto>
+    </account>
+    <account type="CURRENT_ACCOUNT">
+        <id>57eda9b7-f68b-4e22-8bf5-63db8df2a743</id>
+        <balance>0.38900310523937565</balance>
+        <createdAt>2023-04-18T13:59:00Z</createdAt>
+        <CustomerDto>
+            <id>2</id>
+            <name>Hamza</name>
+            <email>Hamza@gmail.com</email>
+        </CustomerDto>
+    </account>
+    <account type="CURRENT_ACCOUNT">
+        <id>f6ac66f9-5341-47f3-9611-6c2f9e5a5df7</id>
+        <balance>2.8795533217456697</balance>
+        <createdAt>2023-04-18T13:59:00Z</createdAt>
+        <CustomerDto>
+            <id>3</id>
+            <name>Khalid</name>
+            <email>Khalid@gmail.com</email>
+        </CustomerDto>
+    </account>
+    <account type="CURRENT_ACCOUNT">
+        <id>29028bf0-e8e9-428b-8ffb-a7d782c6dc09</id>
+        <balance>3.223316733732154</balance>
+        <createdAt>2023-04-18T13:59:00Z</createdAt>
+        <CustomerDto>
+            <id>4</id>
+            <name>Fati</name>
+            <email>Fati@gmail.com</email>
+        </CustomerDto>
+    </account>
+    <account type="SAVING_ACCOUNT">
+        <id>e0a1eced-5ad6-469c-8780-30637aee8bb6</id>
+        <balance>3.3186285462605265</balance>
+        <createdAt>2023-04-18T13:59:00Z</createdAt>
+        <CustomerDto>
+            <id>5</id>
+            <name>Ayoub</name>
+            <email>Ayoub@gmail.com</email>
+        </CustomerDto>
+    </account>
+    <account type="CURRENT_ACCOUNT">
+        <id>d4ac3c07-8efe-4005-8c33-413a1877c5f2</id>
+        <balance>5.067363688664097</balance>
+        <createdAt>2023-04-18T13:59:00Z</createdAt>
+        <CustomerDto>
+            <id>6</id>
+            <name>Wissal</name>
+            <email>Wissal@gmail.com</email>
+        </CustomerDto>
+    </account>
+</accountsDtoPOJO>

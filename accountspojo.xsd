@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="AccountDtosoap" type="accountDto"/>
+
+  <xs:element name="accountsDtoPOJO" type="accountsDtoPOJO"/>
+
+  <xs:element name="customerDto" type="CustomerDto"/>
+
+  <xs:complexType name="accountsDtoPOJO">
+    <xs:sequence>
+      <xs:element name="account" type="accountDto" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="accountDto">
+    <xs:sequence>
+      <xs:element name="id" type="xs:string" minOccurs="0"/>
+      <xs:element name="balance" type="xs:double"/>
+      <xs:element name="createdAt" type="xs:dateTime" minOccurs="0"/>
+      <xs:element name="CustomerDto" type="CustomerDto" minOccurs="0"/>
+    </xs:sequence>
+    <xs:attribute name="type" type="typeAccount"/>
+  </xs:complexType>
+
+  <xs:complexType name="CustomerDto">
+    <xs:sequence>
+      <xs:element name="id" type="xs:long" minOccurs="0"/>
+      <xs:element name="name" type="xs:string" minOccurs="0"/>
+      <xs:element name="email" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:simpleType name="typeAccount">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="SAVING_ACCOUNT"/>
+      <xs:enumeration value="CURRENT_ACCOUNT"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>
+
